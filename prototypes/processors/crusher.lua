@@ -147,9 +147,18 @@ data:extend({
     energy_usage = "375MW",
     energy_source =
     {
-      type = "electric",
-      usage_priority = "secondary-input",
-      emissions = 0.000007200,
+      type = "burner",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+      emissions = 0.000013740,
+      smoke =
+      {
+        {
+          name = "smoke",
+          deviation = {0.1, 0.1},
+          frequency = 3
+        }
+      }
     },
 		working_sound =
     {
