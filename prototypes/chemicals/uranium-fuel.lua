@@ -10,7 +10,15 @@ data:extend(
     order = "c[solid-fuel]",
     stack_size = 50
   },
-  
+  {
+    type = "item",
+    name = "uranium-dust",
+    icon = "__Henrikshell__/graphics/icons/ore/uraninite.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fuel-processing",
+    order = "c[solid-fuel]",
+    stack_size = 100000
+  },
   {
     type = "recipe",
     name = "uranium-fuel",

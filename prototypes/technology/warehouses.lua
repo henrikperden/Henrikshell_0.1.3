@@ -78,28 +78,4 @@ data:extend(
 		},
 		order = "c-k-a"
 	},
-	{
-		type = "technology",
-		name = "warehouse-smart-research",
-		icon = "__Henrikshell__/graphics/tech/storage/warehouse-smart-research.png",
-		icon_size = 128,
-		effects =
-		{
-			{
-				type = "unlock-recipe",
-				recipe = "warehouse-smart",
-			}
-		},
-		prerequisites = { "circuit-network", "warehouse-research" },
-		unit =
-		{
-			count = 25,
-			ingredients = {
-				{ "science-pack-1", 1},
-				{ "science-pack-2", 1}
-			},
-			time = 15
-		},
-		order = "a-d-d"
-	},
 })

@@ -478,6 +478,12 @@
   },
   {
     type = "item-subgroup",
+    name = "platinum-processing",
+    group = "ore-processing",
+    order = "platinum"
+  },
+  {
+    type = "item-subgroup",
     name = "alloy-processing",
     group = "ore-processing",
     order = "zzz-zzz-zzz"

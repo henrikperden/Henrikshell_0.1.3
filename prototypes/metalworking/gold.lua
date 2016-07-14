@@ -9,7 +9,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
-    stack_size = 15000
+    stack_size = 100000
   },
   {
     type = "item",
@@ -18,7 +18,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
-    stack_size = 15000
+    stack_size = 200
   },
    {
     type = "item",
@@ -27,7 +27,7 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
-    stack_size = 15000
+    stack_size = 200
   },
  {
     type = "item",
@@ -107,13 +107,18 @@ data:extend(
     category = "sifter",
     subgroup = "gold-processing",
     order ="a-4",
-    energy_required = 60,
+    energy_required = 1,
     enabled = true,
     ingredients =
     {
-      {type="fluid", name="water", amount=400},
+      {type="fluid", name="water", amount=1000},
     },
-    result = "gold-grain"
+    results=
+    {
+    {type="item",name="gold-grain", probability=0.01, amount_min=1, amount_max=1},    --0.0008  real earth value
+    {type="item",name="platinum-grain", probability=0.01, amount_min=1, amount_max=1}, --0.003   real earth value
+	  {type="item",name="uranium-dust", probability=1, amount_min=38, amount_max=40},
+    }
   },
   {
     type = "recipe",
