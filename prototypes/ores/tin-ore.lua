@@ -48,19 +48,19 @@ data:extend(
 		{
 			control = "tin-ore",
 			sharpness = 1,
-			richness_multiplier = 14000,
-			richness_base = 300,
+			richness_multiplier = 20000,
+			richness_base = 500,
 			size_control_multiplier = 0.2,
 			peaks =
 			{
 				{
-          influence = 0.2,
+          influence = 0.15,
           starting_area_weight_optimal = 0,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.65,
+          influence = 0.30,
           noise_layer = "tin-ore",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.3,
@@ -69,13 +69,13 @@ data:extend(
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.3,
+          influence = 0.15,
           starting_area_weight_optimal = 1,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.55,
+          influence = 0.3,
           noise_layer = "tin-ore",
           noise_octaves_difference = -1,
           noise_persistence = 0.4,

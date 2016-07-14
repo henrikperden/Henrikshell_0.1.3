@@ -56,10 +56,10 @@ data:extend(
 			peaks =
 			{
 			{
-        influence = 0.2,
+        influence = 0.15,
       },
       {
-        influence = 0.65,
+        influence = 0.30,
         noise_layer = "tungsten-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,

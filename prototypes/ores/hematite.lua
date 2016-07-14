@@ -48,16 +48,16 @@ data:extend(
 		{
 			control = "hematite",
 			sharpness = 1,
-			richness_multiplier = 15000,
+			richness_multiplier = 25000,
 			richness_base = 500,
 			size_control_multiplier = 0.07,
 			peaks =
 			{
 			{
-        influence = 0.2,
+        influence = 0.25,
       },
       {
-        influence = 0.65,
+        influence = 0.30,
         noise_layer = "hematite",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
@@ -66,7 +66,7 @@ data:extend(
         starting_area_weight_max_range = 2,
       },
       {
-        influence = 0.65,
+        influence = 0.30,
         noise_layer = "hematite",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,

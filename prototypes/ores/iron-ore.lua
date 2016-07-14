@@ -42,10 +42,10 @@ data:extend({
       size_control_multiplier = 0.15,
       peaks = {
         {
-        influence = 0.1,
+        influence = 0.2,
       },
       {
-        influence = 0.6,
+        influence = 0.30,
         noise_layer = "iron-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
@@ -54,7 +54,7 @@ data:extend({
         starting_area_weight_max_range = 2,
       },
       {
-        influence = 0.9,
+        influence = 0.30,
         noise_layer = "iron-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,

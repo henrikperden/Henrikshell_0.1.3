@@ -50,7 +50,7 @@ data:extend({
     category = "chemistry",
 	subgroup = "sulfurates",
     order = "a-2",
-    energy_required = 1,
+    energy_required = 100,
     enabled = false,
     ingredients =
     {
