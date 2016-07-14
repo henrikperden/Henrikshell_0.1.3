@@ -169,6 +169,14 @@ require("prototypes.energy.solar-panels")
 require("prototypes.energy.solar-panels-large")
 require("prototypes.energy.steam-engines")
 require("prototypes.energy.lamps")
+require("prototypes.energy.heat-enthalpy1GJ")
+
+
+--sulfuric-acidprocesses--
+require("prototypes.sulfuric-acid-processing.sulfuric-acid")
+require("prototypes.sulfuric-acid-processing.sulfuric-acid2")
+require("prototypes.sulfuric-acid-processing.sulfuric-acid3")
+require("prototypes.sulfuric-acid-processing.sulfuric-acid4")
 
 --Mining--
 require("prototypes.mining-tools.drills")
@@ -309,6 +317,12 @@ require("prototypes.technology.coalscience.coal-processing2")
 require("prototypes.technology.coalscience.coal-processing3")
 require("prototypes.technology.coalscience.coal-processing4")
 require("prototypes.technology.coalscience.science-pots-coal")
+require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-alien")
+require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing1")
+require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing2")
+require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing3")
+require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing4")
+require("prototypes.technology.sulfuric-acidscience.science-pots-sulfuric-acid")
 
 
 for i, drill in pairs(data.raw["mining-drill"]) do
