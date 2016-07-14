@@ -18,8 +18,6 @@ data:extend({
       ingredients =
       {
         {"science-pack-sulfuric-acid1", 1},
-		{"salpeter", 50},
-		{"sulfur", 50},
 		
       },
       time = 30

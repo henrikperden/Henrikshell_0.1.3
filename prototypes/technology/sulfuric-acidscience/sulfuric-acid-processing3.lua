@@ -27,7 +27,6 @@ data:extend(
       ingredients =
       {
      {"science-pack-sulfuric-acid1", 5},
-		{"lead-plate", 5},
       },
       time = 30
     },
