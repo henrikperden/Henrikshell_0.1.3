@@ -56,5 +56,26 @@ data:extend({
 	
     },
 
+},
+{
+    type = "recipe",
+    name = "explosives-analogue2",
+	icon = "__Henrikshell__/graphics/icons/explosives/explosives.png",
+    category = "chemistry",
+	subgroup = "sulfurates",
+    order = "a-3",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+     {
+      {type="item", name="TNT", amount=1},
+    },
+    results=
+    {
+	  {type="item", name="explosives-analogue", amount=100},
+	
+    },
+
 	}
+	
 })

@@ -18,15 +18,15 @@ data:extend(
     category="coal-pots",
     ingredients =
     {
-      {"explosives-gunpowder",100},
+      {"explosives-analogue",10},
       {"iron-gear-wheel",10},
     },
     result = "science-pack-explosives1"
   },
   {
     type = "tool",
-    name = "science-pack-coal2",
-    icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",
+    name = "science-pack-explosives2",
+    icon = "__base__/graphics/technology/explosives.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "coal-pots",
     order = "a[science-pack-coal2]",
@@ -36,72 +36,78 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "science-pack-coal2",
+    name = "science-pack-explosives2",
     enabled = false,
-    energy_required = 50,
+    energy_required = 5,
     category="coal-pots",
     ingredients =
     {
-      {"carbon",100},
+      {"explosives-analogue",100},
       {"basic-circuit-board",5},
 	  {"iron-gear-wheel",5},
       
     },
-    result = "science-pack-coal2"
+    result = "science-pack-explosives2"
   },
   {
     type = "tool",
-    name = "science-pack-coal3",
-    icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",
+    name = "science-pack-explosives3",
+    icon = "__base__/graphics/technology/explosives.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "coal-pots",
-    order = "a[science-pack-coal3]",
+    order = "a[science-pack-coal2]",
     stack_size = 200,
     durability = 1,
     durability_description_key = "description.science-pack-remaining-amount"
   },
-  {
+  
+  
+  
+    {
     type = "recipe",
-    name = "science-pack-coal3",
+    name = "science-pack-explosives3",
     enabled = false,
-    energy_required = 3000,
+    energy_required = 5,
     category="coal-pots",
     ingredients =
     {
-      {"iron-gear-wheel", 500},
-      {"coke", 500},
-      {"basic-circuit-board",50},
+      {"explosives-analogue",1000},
+      {"basic-circuit-board",5},
+	  {"iron-gear-wheel",50},
       
     },
-    result = "science-pack-coal3"
-  }, 
+    result = "science-pack-explosives3"
+  },
+  
   {
     type = "tool",
-    name = "science-pack-coal4",
-    icon = "__Henrikshell__/graphics/icons/materials/coalpowder.png",
+    name = "science-pack-explosives4",
+    icon = "__base__/graphics/technology/explosives.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "coal-pots",
-    order = "a[science-pack-coal4]",
+    order = "a[science-pack-coal2]",
     stack_size = 200,
     durability = 1,
     durability_description_key = "description.science-pack-remaining-amount"
   },
-  {
+  
+  
+    {
     type = "recipe",
-    name = "science-pack-coal4",
+    name = "science-pack-explosives4",
     enabled = false,
-    energy_required = 5000,
+    energy_required = 5,
     category="coal-pots",
     ingredients =
     {
-      {"carbon-fibre", 1000},
-      {"gold-plate", 1},
-      {"processing-unit", 100},
-    
+      {"explosives-analogue",10000},
+      {"basic-circuit-board",5},
+	  {"iron-gear-wheel",5},
       
     },
-    result = "science-pack-coal4"
+    result = "science-pack-explosives4"
   },
+  
   
   
   }
