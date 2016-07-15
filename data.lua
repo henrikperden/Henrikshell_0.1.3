@@ -67,10 +67,6 @@ require("prototypes.chemicals.liquid-fuel")
 require("prototypes.chemicals.lithium")
 require("prototypes.chemicals.lubricants")
 require("prototypes.chemicals.magnesium")
-require("prototypes.chemicals.nitric-acid")
-require("prototypes.chemicals.nitrogen")
-require("prototypes.chemicals.nitrogen-oxide")
-require("prototypes.chemicals.nitrogen-dioxide")
 require("prototypes.chemicals.oil-processing")
 require("prototypes.chemicals.oxygen")
 require("prototypes.chemicals.rocket-fuel")
@@ -82,6 +78,11 @@ require("prototypes.chemicals.solid-fuel")
 require("prototypes.chemicals.uranium-fuel")
 require("prototypes.chemicals.sulfurates")
 require("prototypes.chemicals.water")
+require("prototypes.chemicals.nitrogen.ammonia")
+require("prototypes.chemicals.nitrogen.nitric-acid")
+require("prototypes.chemicals.nitrogen.nitrogen")
+require("prototypes.chemicals.nitrogen.nitrogen-oxide")
+require("prototypes.chemicals.nitrogen.nitrogen-dioxide")
 
 --coalprocesses--
 require("prototypes.coalprocesses.carbon-fibre")
@@ -323,6 +324,8 @@ require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing2")
 require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing3")
 require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing4")
 require("prototypes.technology.sulfuric-acidscience.science-pots-sulfuric-acid")
+require("prototypes.technology.nitrogentech")
+
 
 
 for i, drill in pairs(data.raw["mining-drill"]) do

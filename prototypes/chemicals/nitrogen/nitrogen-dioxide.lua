@@ -16,29 +16,10 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "nitrogen-dioxide-1",
-    category = "chemistry",
-    enabled = false,
-    energy_required = 1,
-    ingredients =
-    {
-      {type="fluid", name="nitrogen", amount=1},
-      {type="fluid", name="oxygen", amount=2}
-    },
-    results=
-    {
-      {type="fluid", name="nitrogen-dioxide", amount=2},
-    },
-    subgroup = "gas-processing",
-    icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen-dioxide.png",
-    order = "b[fluid-chemistry]-b[nitrogen-dioxide]"
-  },
-  {
-    type = "recipe",
     name = "nitrogen-dioxide-2",
     category = "chemistry",
     enabled = false,
-    energy_required = 1,
+    energy_required = 0.1,
     ingredients =
     {
       {type="fluid", name="nitrogen-oxide", amount=2},
@@ -47,10 +28,31 @@ data:extend(
     results=
     {
       {type="fluid", name="nitrogen-dioxide", amount=2},
+	  {type="item", name="heat-enthalpy1GJ", amount=1},
     },
     subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen-dioxide.png",
-    order = "air-3"
+    order = "b[fluid-chemistry]-b[nitrogen-dioxide]"
+  },
+{
+    type = "recipe",
+    name = "nitrogen-dioxide-1",
+    category = "chemistry",
+    enabled = false,
+    energy_required = 0.1,
+    ingredients =
+    {
+      {type="fluid", name="nitrogen-oxide", amount=2},
+      {type="fluid", name="oxygen", amount=1}
+    },
+    results=
+    {
+      {type="fluid", name="nitrogen-dioxide", amount=2},
+	  {type="item", name="heat-enthalpy1GJ", amount=1},
+    },
+    subgroup = "gas-processing",
+    icon = "__Henrikshell__/graphics/icons/chemicals/nitrogen-dioxide.png",
+    order = "b[fluid-chemistry]-b[nitrogen-dioxide]"
   },
   }
   )

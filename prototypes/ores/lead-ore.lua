@@ -72,13 +72,13 @@ data:extend(
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.3,
+          influence = 0.2,
           starting_area_weight_optimal = 1,
           starting_area_weight_range = 0,
           starting_area_weight_max_range = 2,
         },
         {
-          influence = 0.55,
+          influence = 0.3,
           noise_layer = "lead-ore",
           noise_octaves_difference = -1,
           noise_persistence = 0.4,

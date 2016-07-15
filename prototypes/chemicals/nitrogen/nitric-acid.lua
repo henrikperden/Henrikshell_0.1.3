@@ -21,13 +21,14 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {type="fluid", name="water", amount=1},
       {type="fluid", name="nitrogen-dioxide", amount=3},
+      {type="fluid", name="water", amount=1},
     },
     results=
     {
       {type="fluid", name="nitric-acid", amount=2},
       {type="fluid", name="nitrogen-oxide", amount=1},
+	  {type="item", name="heat-enthalpy1GJ", amount=1},
     },
     subgroup = "gas-processing",
     icon = "__Henrikshell__/graphics/icons/chemicals/nitric-acid.png",
