@@ -98,6 +98,7 @@ require("prototypes.coalprocesses.coke")
 require("prototypes.explosives.explosives1-dynamite")
 require("prototypes.explosives.explosives2-TNT")
 require("prototypes.explosives.explosives3-AN-FO")
+require("prototypes.explosives.explosives4-RDX-HMX")
 require("prototypes.explosives.explosives-analogues")
 
 --Metalworking--
@@ -335,6 +336,7 @@ require("prototypes.technology.explosivesscience.science-pots-explosives")
 require("prototypes.technology.explosivesscience.explosives-science1")
 require("prototypes.technology.explosivesscience.explosives-science2")
 require("prototypes.technology.explosivesscience.explosives-science3")
+require("prototypes.technology.explosivesscience.explosives-science4")
 
 
 

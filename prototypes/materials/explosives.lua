@@ -16,9 +16,9 @@
     enabled = true,
        ingredients =
     {
-      {type="item", name="sulfur", amount=1},
-      {type="item", name="coal", amount=1},
-      {type="item", name="salpeter", amount=1},
+      {type="item", name="sulfur", amount=6},
+      {type="item", name="coal", amount=19},
+      {type="item", name="salpeter", amount=75},
     },
     result= "explosives-gunpowder"
   },

@@ -93,10 +93,52 @@ data:extend({
     },
     results=
     {
-	  {type="item", name="explosives-analogue", amount=150},
+	  {type="item", name="explosives-analogue", amount=55},
 	
     },
 
-	}
+	},
+	
+	
+		{
+    type = "recipe",
+    name = "explosives-analogue4",
+	icon = "__Henrikshell__/graphics/icons/explosives/explosives.png",
+    category = "chemistry",
+	subgroup = "sulfurates",
+    order = "z-4",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+     {
+      {type="item", name="RDX", amount=1},
+    },
+    results=
+    {
+	  {type="item", name="explosives-analogue", amount=160},
+	
+    },
+	
+			{
+    type = "recipe",
+    name = "explosives-analogue5",
+	icon = "__Henrikshell__/graphics/icons/explosives/explosives.png",
+    category = "chemistry",
+	subgroup = "sulfurates",
+    order = "z-5",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+     {
+      {type="item", name="HMX", amount=1},
+    },
+    results=
+    {
+	  {type="item", name="explosives-analogue", amount=170},
+	
+    },
+
+	},
+	
 	
 })
