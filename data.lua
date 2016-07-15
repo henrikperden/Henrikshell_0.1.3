@@ -94,6 +94,10 @@ require("prototypes.coalprocesses.synthetic-wood-coal")
 require("prototypes.coalprocesses.coal-resin")
 require("prototypes.coalprocesses.coke")
 
+--explosives-processes--
+require("prototypes.explosives.explosives1-dynamite")
+require("prototypes.explosives.explosives-analogues")
+
 --Metalworking--
 require("prototypes.metalworking.metal-waste")
 require("prototypes.metalworking.aluminium")
@@ -325,6 +329,8 @@ require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing3")
 require("prototypes.technology.sulfuric-acidscience.sulfuric-acid-processing4")
 require("prototypes.technology.sulfuric-acidscience.science-pots-sulfuric-acid")
 require("prototypes.technology.nitrogentech")
+require("prototypes.technology.explosivesscience.science-pots-explosives")
+require("prototypes.technology.explosivesscience.explosives-science1")
 
 
 

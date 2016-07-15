@@ -2,7 +2,7 @@
 {
 {
     type = "item",
-    name = "explosives",
+    name = "explosives-gunpowder",
     icon = "__base__/graphics/icons/explosives.png",
     flags = {"goes-to-main-inventory"},
 	subgroup = "coal-base",
@@ -11,7 +11,7 @@
   },
 {
     type = "recipe",
-    name = "explosives",
+    name = "explosives-gunpowder",
     energy_required = 5,
     enabled = true,
        ingredients =
@@ -20,7 +20,7 @@
       {type="item", name="coal", amount=1},
       {type="item", name="salpeter", amount=1},
     },
-    result= "explosives"
+    result= "explosives-gunpowder"
   },
   }
   )

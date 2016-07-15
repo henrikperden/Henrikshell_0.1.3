@@ -20,7 +20,7 @@ data:extend(
     {
       {"electronic-circuit", 5},
       {"iron-gear-wheel", 30},
-	{"explosives", 15},
+	{"explosives-analogue", 100},
 
 
     },
@@ -147,7 +147,7 @@ data:extend(
     {
       {"advanced-circuit", 5},
       {"iron-gear-wheel", 60},
-	{"explosives", 15},
+	{"explosives-analogue", 1000},
     },
     result = "area-mining-drill-3"
   },
@@ -272,7 +272,7 @@ data:extend(
     {
       {"processing-unit", 5},
       {"iron-gear-wheel", 120},
-	{"explosives", 15},
+	{"explosives-analogue", 10000},
     },
     result = "area-mining-drill-4"
   },
@@ -396,7 +396,7 @@ data:extend(
     {
       {"advanced-processing-unit", 5},
       {"iron-gear-wheel", 240},
-	{"explosives", 15},
+	{"explosives-analogue", 64000},
     },
     result = "area-mining-drill-5"
   },

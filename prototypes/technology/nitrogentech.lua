@@ -36,6 +36,13 @@ data:extend(
         recipe = "nitrogen-oxide",
       },
 	  
+	     {
+        type = "unlock-recipe",
+        recipe = "nitric-acid-and-sulfuric-acid",
+      },
+	  
+	
+	  
 	  },
     unit =
     {
