@@ -18,7 +18,21 @@ data:extend(
         type = "unlock-recipe",
         recipe = "uranium-fuel",
       },
-	
+	{
+        type = "unlock-recipe",
+        recipe = "enriched-uranium",
+      },
+	  
+	  {
+        type = "unlock-recipe",
+        recipe = "highly-enriched-uranium",
+      },
+	  
+	  	  {
+        type = "unlock-recipe",
+        recipe = "uranium-nuke",
+      },
+	  
 
     },
     prerequisites = {"advanced-material-processing-3"},

@@ -118,6 +118,7 @@ data:extend({
 	  {type="item", name="explosives-analogue", amount=160},
 	
     },
+	 },
 	
 			{
     type = "recipe",
@@ -136,6 +137,30 @@ data:extend({
     {
 	  {type="item", name="explosives-analogue", amount=170},
 	
+    },
+
+	},
+	
+				{
+    type = "recipe",
+    name = "explosives-analogue6",
+	icon = "__Henrikshell__/graphics/icons/explosives/explosives.png",
+    category = "chemistry",
+	subgroup = "sulfurates",
+    order = "z-6",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+     {
+      {type="item", name="uranium-nuke", amount=1},
+    },
+    results=
+    {
+	  {type="item", name="explosives-analogue", amount=64000},
+	  {type="item", name="explosives-analogue", amount=64000},
+	  {type="item", name="explosives-analogue", amount=64000},
+	  {type="item", name="explosives-analogue", amount=64000},
+	  {type="item", name="explosives-analogue", amount=64000},	
     },
 
 	},

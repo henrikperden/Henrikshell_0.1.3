@@ -99,6 +99,7 @@ require("prototypes.explosives.explosives1-dynamite")
 require("prototypes.explosives.explosives2-TNT")
 require("prototypes.explosives.explosives3-AN-FO")
 require("prototypes.explosives.explosives4-RDX-HMX")
+require("prototypes.explosives.explosives5-uranium-nuke")
 require("prototypes.explosives.explosives-analogues")
 
 --Metalworking--

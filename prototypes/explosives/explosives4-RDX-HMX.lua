@@ -55,12 +55,12 @@ data:extend({
     ingredients =
     {
       {type="fluid", name="nitric-acid", amount=20},
-      {type="fluid", name="light-fuel", amount=2},
+      {type="fluid", name="liquid-fuel", amount=2},
     },
     results=
     {
 	  {type="fluid", name="wet-RDX", amount=6},
-	  {type="fluid", name="ligth-fuel", amount=1},
+	  {type="fluid", name="liquid-fuel", amount=1},
 	  {type="item", name="AN", amount=2},
 	  {type="item", name="heat-enthalpy1GJ", amount=8},
 	},
