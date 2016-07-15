@@ -97,6 +97,7 @@ require("prototypes.coalprocesses.coke")
 --explosives-processes--
 require("prototypes.explosives.explosives1-dynamite")
 require("prototypes.explosives.explosives2-TNT")
+require("prototypes.explosives.explosives3-AN-FO")
 require("prototypes.explosives.explosives-analogues")
 
 --Metalworking--
@@ -333,6 +334,7 @@ require("prototypes.technology.nitrogentech")
 require("prototypes.technology.explosivesscience.science-pots-explosives")
 require("prototypes.technology.explosivesscience.explosives-science1")
 require("prototypes.technology.explosivesscience.explosives-science2")
+require("prototypes.technology.explosivesscience.explosives-science3")
 
 
 
